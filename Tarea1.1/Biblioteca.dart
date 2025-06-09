@@ -35,11 +35,11 @@ void main() {
   biblioteca.agregarLibro(Libro("1984", "George Orwell", 1949));
   biblioteca.agregarLibro(Libro("El amor en los tiempos del cólera", "Gabriel García Márquez", 1985));
   biblioteca.agregarLibro(Libro("Fahrenheit 451", "Ray Bradbury", 1953));
-  print("\n📖 Libros de Gabriel García Márquez:");
+  print("\nLibros de Gabriel García Márquez:");
   for (var libro in biblioteca.buscarPorAutor("Gabriel García Márquez")) {
     print(libro);
   }
-  print("\n📚 Todos los libros ordenados por año:");
+  print("\nTodos los libros ordenados por año:");
   for (var libro in biblioteca.listarPorAnio()) {
     print(libro);
   }
