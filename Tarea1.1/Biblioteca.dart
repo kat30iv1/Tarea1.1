@@ -44,7 +44,7 @@ void main() {
     print(libro);
   }
   biblioteca.eliminarLibro("1984");
-  print("\n📚 Lista actual de libros:");
+  print("\nLista actual de libros:");
   for (var libro in biblioteca.libros) {
     print(libro);
   }
